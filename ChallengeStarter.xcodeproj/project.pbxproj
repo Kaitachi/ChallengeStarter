@@ -30,6 +30,10 @@
 		26172AE829314874008B13F4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		26172AF3293148EA008B13F4 /* SampleChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleChallenge.swift; sourceTree = "<group>"; };
 		26172AF829314936008B13F4 /* Solution00.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution00.swift; sourceTree = "<group>"; };
+		26172AFB29314A05008B13F4 /* Solution00.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Solution00.in; sourceTree = "<group>"; };
+		26172AFC29314A17008B13F4 /* Solution00.example.part01.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = Solution00.example.part01.out; sourceTree = "<group>"; };
+		26172AFD29314A21008B13F4 /* Solution00.example.part02.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = Solution00.example.part02.out; sourceTree = "<group>"; };
+		26172AFE29314A2A008B13F4 /* Solution.example.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Solution.example.in; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,7 @@
 		26172AF1293148C4008B13F4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				26172AFA293149EE008B13F4 /* SampleChallenge */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -98,6 +103,17 @@
 			children = (
 				26172AF3293148EA008B13F4 /* SampleChallenge.swift */,
 				26172AF829314936008B13F4 /* Solution00.swift */,
+			);
+			path = SampleChallenge;
+			sourceTree = "<group>";
+		};
+		26172AFA293149EE008B13F4 /* SampleChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				26172AFB29314A05008B13F4 /* Solution00.in */,
+				26172AFE29314A2A008B13F4 /* Solution.example.in */,
+				26172AFC29314A17008B13F4 /* Solution00.example.part01.out */,
+				26172AFD29314A21008B13F4 /* Solution00.example.part02.out */,
 			);
 			path = SampleChallenge;
 			sourceTree = "<group>";
