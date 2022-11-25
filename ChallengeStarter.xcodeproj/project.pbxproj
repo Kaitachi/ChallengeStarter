@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		26172AE929314874008B13F4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26172AE829314874008B13F4 /* main.swift */; };
+		26172AF4293148EA008B13F4 /* SampleChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26172AF3293148EA008B13F4 /* SampleChallenge.swift */; };
+		26172AF729314911008B13F4 /* ChallengeBase in Frameworks */ = {isa = PBXBuildFile; productRef = 26172AF629314911008B13F4 /* ChallengeBase */; };
+		26172AF929314936008B13F4 /* Solution00.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26172AF829314936008B13F4 /* Solution00.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,8 @@
 /* Begin PBXFileReference section */
 		26172AE529314874008B13F4 /* ChallengeStarter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ChallengeStarter; sourceTree = BUILT_PRODUCTS_DIR; };
 		26172AE829314874008B13F4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		26172AF3293148EA008B13F4 /* SampleChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleChallenge.swift; sourceTree = "<group>"; };
+		26172AF829314936008B13F4 /* Solution00.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution00.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26172AF729314911008B13F4 /* ChallengeBase in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,9 +63,43 @@
 		26172AE729314874008B13F4 /* ChallengeStarter */ = {
 			isa = PBXGroup;
 			children = (
+				26172AEF293148B7008B13F4 /* Challenges */,
+				26172AF0293148BD008B13F4 /* Utilities */,
+				26172AF1293148C4008B13F4 /* Resources */,
 				26172AE829314874008B13F4 /* main.swift */,
 			);
 			path = ChallengeStarter;
+			sourceTree = "<group>";
+		};
+		26172AEF293148B7008B13F4 /* Challenges */ = {
+			isa = PBXGroup;
+			children = (
+				26172AF2293148D7008B13F4 /* SampleChallenge */,
+			);
+			path = Challenges;
+			sourceTree = "<group>";
+		};
+		26172AF0293148BD008B13F4 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		26172AF1293148C4008B13F4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		26172AF2293148D7008B13F4 /* SampleChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				26172AF3293148EA008B13F4 /* SampleChallenge.swift */,
+				26172AF829314936008B13F4 /* Solution00.swift */,
+			);
+			path = SampleChallenge;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,6 +118,9 @@
 			dependencies = (
 			);
 			name = ChallengeStarter;
+			packageProductDependencies = (
+				26172AF629314911008B13F4 /* ChallengeBase */,
+			);
 			productName = ChallengeStarter;
 			productReference = 26172AE529314874008B13F4 /* ChallengeStarter */;
 			productType = "com.apple.product-type.tool";
@@ -106,6 +149,9 @@
 				Base,
 			);
 			mainGroup = 26172ADC29314874008B13F4;
+			packageReferences = (
+				26172AF529314911008B13F4 /* XCRemoteSwiftPackageReference "ChallengeBase" */,
+			);
 			productRefGroup = 26172AE629314874008B13F4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -121,6 +167,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				26172AE929314874008B13F4 /* main.swift in Sources */,
+				26172AF4293148EA008B13F4 /* SampleChallenge.swift in Sources */,
+				26172AF929314936008B13F4 /* Solution00.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +328,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		26172AF529314911008B13F4 /* XCRemoteSwiftPackageReference "ChallengeBase" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Kaitachi/ChallengeBase";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		26172AF629314911008B13F4 /* ChallengeBase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 26172AF529314911008B13F4 /* XCRemoteSwiftPackageReference "ChallengeBase" */;
+			productName = ChallengeBase;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 26172ADD29314874008B13F4 /* Project object */;
 }

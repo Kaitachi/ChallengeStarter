@@ -2,10 +2,14 @@
 //  main.swift
 //  ChallengeStarter
 //
-//  Created by Radamés Vega-Alfaro on 2022-11-25.
+//  Created by you on 2022-11-25.
 //
 
 import Foundation
 
-print("Hello, World!")
+let resourceSets = ["example"]
 
+// MARK: - Direct Declaration
+// Invoke using direct declarations
+var day01 = SampleChallenge.Solution00(datasets: resourceSets, algorithms: [.part01, .part02])
+day01.execute()
