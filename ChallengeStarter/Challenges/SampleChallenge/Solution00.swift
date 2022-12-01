@@ -31,10 +31,10 @@ extension SampleChallenge {
         
         // MARK: - Solution Methods
         // Step 1: Assemble
-        func assemble(_ input: String, _ output: String? = nil) -> (Input, Output?) {
-            let depths = input.integerList()
+        func assemble(_ rawInput: String, _ rawOutput: String? = nil) -> (Input, Output?) {
+            let depths = rawInput.integerList()
             
-            let increases = output?.integerList()[0]
+            let increases = rawOutput?.integerList()[0]
             
             return (depths, increases)
         }
