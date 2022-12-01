@@ -34,6 +34,8 @@
 		26172AFC29314A17008B13F4 /* Solution00.example.part01.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = Solution00.example.part01.out; sourceTree = "<group>"; };
 		26172AFD29314A21008B13F4 /* Solution00.example.part02.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = Solution00.example.part02.out; sourceTree = "<group>"; };
 		26172AFE29314A2A008B13F4 /* Solution00.example.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Solution00.example.in; sourceTree = "<group>"; };
+		26EB967C29357816004C3E0F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		26EB967D29357DC3004C3E0F /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,8 @@
 		26172ADC29314874008B13F4 = {
 			isa = PBXGroup;
 			children = (
+				26EB967D29357DC3004C3E0F /* LICENSE */,
+				26EB967C29357816004C3E0F /* README.md */,
 				26172AE729314874008B13F4 /* ChallengeStarter */,
 				26172AE629314874008B13F4 /* Products */,
 			);
